@@ -1,6 +1,6 @@
 # Information of countries Search App
 ## Project Description
-This is a responsive, single-page web application that allows users to search the currency name of a country using the [currencyAPI].
+This is a single page responsive web application that allows users to search for a country name using [RESTful API] to show some information about the country such as its flag, capital, currency, language and area.
 ## Must-Have Features
 - Responsive design for both mobile and desktop screens.
 - Users can search for different information about a country (based on the continent).
