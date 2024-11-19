@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countries Search App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Countries Information</h1>
+    <input type="text" id="search-input" placeholder="Search for a country..." />
+    <div id="continent-selector">
+      <select id="continent-dropdown">
+        <option value="" disabled selected>Select a Continent</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">Africa</option>
+        <option value="Europe">Europe</option>
+        <option value="North America">North America</option>
+        <option value="South America">South America</option>
+        <option value="Australia">Australia</option>
+        <option value="Antarctica">Antarctica</option>
+      </select>
+    </div>
+  </header>
+  <main id="results-container"></main>
+  <div id="loading-indicator" class="hidden">Loading...</div>
+  <script src="script.js"></script>
+</body>
+</html>
